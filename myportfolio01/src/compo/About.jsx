@@ -2,11 +2,11 @@
 function About() {
   return (
     <>
-      <div className="place-self-center  w-full break-wor text-xs md:text-sm lg:text-base xl:text-lg px-5 md:px-23 ">
+      <div className="place-self-center  w-full break-word text-xs md:text-sm lg:text-base xl:text-lg px-5 md:px-23 ">
         <div
           className={`  text-[#706c6cb3] ml-3 mt-10 md:mt-25 flex flex-col gap-5  `}
         >
-          <div className="">
+          <div >
             <div className="mb-4 text-[0.7rem] md:text-[1rem] md:mb-2 text-gray-300  md:w-55">
               &#123;/* About Me*/&#125;
             </div>
@@ -204,19 +204,10 @@ function About() {
         </div>
       </div>
 
-      {/* {imh} */}
+      
     </>
   );
 }
 
 export default About;
 
-//      <div
-//        className="flex  flex-row-reverse bg-green-400 -ml-1   w-35
-//  md:w-80 rounded-3xl md:h-[12px]  h-[5px]"
-//      >
-//        <div className="bg-[#1e1e1ee4]   float-right text-[0.3rem] md:text-[0.7rem] text-white pl-1">
-//          {" "}
-//          96%{" "}
-//        </div>
-//      </div>

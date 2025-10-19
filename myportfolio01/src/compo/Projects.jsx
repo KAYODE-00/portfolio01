@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { data } from "./data";
 
-export default function Projects(props) {
+export default function Projects() {
   const [ind, setInd] = useState(0);
   const [proj, setProj] = useState(data[ind]);
 

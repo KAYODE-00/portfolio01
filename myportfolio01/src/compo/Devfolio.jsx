@@ -10,10 +10,6 @@ export default function Devfolio(props) {
   const [pPage, setPpage] = useState(true);
   const [cPage, setCpage] = useState(true);
 
-  const [cHage, setCHpage] = useState(false);
-  const [caPage, setCapage] = useState(true);
-  const [ccPage, setcCpage] = useState(true);
-  const [cpPage, setcPpage] = useState(true);
 
   return (
     <>
