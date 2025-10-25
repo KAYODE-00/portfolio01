@@ -53,7 +53,7 @@ export default function Devfolio(props) {
         <div
           className={` ${
             isOpen ? `md:ml-67.5` : `md:ml-15`
-          } w-full   md:block xl:block lg:block   bg-[#f5f5f5]  dark:dark:bg-[#1e1e1e]`}
+          } w-full   md:block xl:block lg:block   bg-[#f5f5f5]  dark:dark:bg-[#f8e2e2]`}
         >
           <Footer
             hPage={hPage}
@@ -64,8 +64,13 @@ export default function Devfolio(props) {
             setCpage={setCpage}
             pPage={pPage}
             setPpage={setPpage}
-          />
+          />   <div className="place-self-center pl-8 md:pl-0 pb-5  bg-[#222223] flex md:flex-row sm:flex-row flex-col items-center md:place-content-center w-full  text-gray-300/50 ">
+              <span className=" mr-2">
+               ©{new Date().getFullYear()}. All rights reserved Kayode
+              </span>{" "}
+            </div>
         </div>
+                 
       </div>
     </>
   );

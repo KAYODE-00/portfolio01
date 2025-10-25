@@ -21,7 +21,7 @@ function Footer() {
         className={` bg-[#222223] border-t-1 border-[#0e0e0e] w-full
            text-gray-200 text-[0.7rem] flex items-center justify-center  `}
       >
-        <div className=" font-mono mb-20  sm:-mb-18 md:-mb-15 lg:-mb-25 xl:-mb-35  h-65 sm:h-[350px] md:h-[300px] lg:h-[350px] xl:h-[400px] 2xl:h-[450px] w-screen ">
+        <div className=" font-mono h-45 mb-10 sm:h-[300px] md:h-[250px] lg:h-[300px] xl:h-[350px] 2xl:h-[400px] w-screen ">
           <div className="flex flex-col gap-3 p-3 ">
             {" "}
             <div className="flex flex-col  ">
@@ -62,7 +62,7 @@ function Footer() {
                 </a>
               </p>
             </div>
-            <div className="flex items-center">
+            <div className="flex items-center ">
               {" "}
               <span className="text-yellow-200 mr-2 ">npm </span> run{" "}
               <span className="">
@@ -77,12 +77,6 @@ function Footer() {
               </span>{" "}
             </div>
           
-            <div className="plaace-self-center flex md:flex-row sm:flex-row flex-col items-center  text-gray-300/50  mt-2">
-              <span className=" mr-2">
-                Copyright {}. All rights reserved Kayode
-              </span>{" "}
-              <span>Inspired by the tool that buult me.</span>
-            </div>
           </div>
         </div>
       </div>{" "}

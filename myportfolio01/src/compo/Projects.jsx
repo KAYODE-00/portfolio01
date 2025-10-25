@@ -43,9 +43,9 @@ export default function Projects() {
           <div className=" flex flex-col gap-3">
 
             <div className="md:hidden place-self-center h-50 w-55  flex flex-col justify-end gap-3">
-              <img src={proj.img} alt="" className="h-45" />
-              <button className="bg-[#1a1a1a] border-[1px] text-[0.9rem] px-3 py-1 rounded-4xl 
-            md:text-[1rem] cursor-pointer shadow-gray-800 place-self-center w-55">preview</button>
+              <img src={proj.smimg} alt="" className="h-45" />
+             <a href={proj.peojectlink} target="_blank" rel="noopener noreferrer"> <button className="bg-[#1a1a1a] border-[1px] text-[0.9rem] px-3 py-1 rounded-4xl 
+            md:text-[1rem] cursor-pointer shadow-gray-800 place-self-center w-55">preview</button></a> 
             </div>
 
             <h2 className="md:-mt-30 ">{proj.text} </h2>
@@ -57,12 +57,14 @@ export default function Projects() {
             className="hidden md:block  -mr-15 md:h-95"
           />
         </div>
-        <button
+        
+         <a href={proj.peojectlink} target="_blank"><button
           className="hidden md:block bg-[#1a1a1a] border-[1px] text-[0.9rem] px-3 py-1 rounded-4xl 
             md:text-[1rem] cursor-pointer shadow-gray-800 place-self-center w-55"
         >
-          Preview
-        </button>
+          
+         Preview
+        </button> </a>
         <div className="flex flex-col items-center justify-center md:gap-3 mt-5 mb-3">
           <p className="text-gray-300 ">
             {ind + 1} of {data.length}
