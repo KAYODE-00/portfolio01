@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 
+import HomeProjects from "./HomeProjects";
+
+
 function Home() {
   return (
     <>
@@ -116,21 +119,15 @@ function Home() {
             <span
               className={`md:ml-[550px]  text-[0.7rem] md:text-[1rem] mb-1 md:mb-2 cursor-pointer w-19 md:w-26 text-gray-300`}
             >
-              <Link to="Projects"> /*Projects*/ </Link>
+              <Link to="Projectspage"> /*Projects*/ </Link>
             </span>
 
             <div
               className={`md:mb-5  md:ml-[550px] flex items-center justify-center gap-5 text-xs md:text-sm lg:text-base xl:text-lg text-[#706c6cb3] `}
             >
               {" "}
-              <div className=" place-self-center h-50 w-55  flex flex-col  gap-3">
-                <img src="phone.png" alt="" className="h-45" />
-                <button
-                  className="bg-[#1a1a1a] border-[1px] text-[0.9rem] px-3 py-1 rounded-4xl 
-            md:text-[1rem] cursor-pointer shadow-gray-800  w-55"
-                >
-                  preview
-                </button>
+              <div className=" h-auto md:w-130 w-70 md:ml-20 md:p-1 p-2 sm:w-155">
+<HomeProjects/>
               </div>
             </div>
           </div>{" "}

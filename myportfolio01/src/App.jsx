@@ -18,7 +18,7 @@ function App() {
  
   return (
     <>
-      <div className=" min-h-screen w-full bg-[#f5f5f5] dark:bg-[#1e1e1e] transition-colors duration-300 ease-in-out">
+      <div className=" min-h-screen w-full bg-[#f5f5f5] dark:bg-[#1e1e1e] transition-colors duration-300 ease-in-out ">
       <Devfolio bgTog={bgTog} darkM={darkM}/>
    
       </div>

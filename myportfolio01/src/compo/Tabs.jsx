@@ -29,7 +29,7 @@ function Tabs() {
               Contact.jsx
             </button>
           </Link>
-          <Link to="/Projects">
+          <Link to="/Projectspage">
             <button className="h-[100%]  border-r-[0.5px] border-[#141313] pl-4 cursor-pointer hover:text-gray-100 transition-all duration-200  text-gray-100/30 px-10 py-[9px]">
               <i className="devicon-javascript-plain colored mr-2 "></i>
               Projects.js

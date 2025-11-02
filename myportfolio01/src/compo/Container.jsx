@@ -1,9 +1,10 @@
 import About from "./About";
 import Home from "./Home";
 import { Routes, Route } from "react-router-dom";
-import Projects from "./Projects";
+
 import Contact from "./Contact";
 import Tabs from "./Tabs";
+import Projectpage from "./Projectpage";
 
 
 function Container(props) {
@@ -13,7 +14,7 @@ function Container(props) {
         <div
           className={` ${
             props.isOpen ? `md:ml-67.5 ` : `md:ml-15.5`
-          } hidden fixed w-full top-0  md:block xl:block lg:block   bg-[#f5f5f5]  dark:dark:bg-[#1e1e1e]`}
+          } hidden fixed w-full top-0  md:block xl:block lg:block z-10  bg-[#f5f5f5]  dark:dark:bg-[#1e1e1e]`}
         >
           <Tabs
 
@@ -37,8 +38,9 @@ function Container(props) {
               element={<About  />}
             />
             <Route
-              path="/Projects"
-              element={<Projects  />}
+              path="/Projectspage"
+              element={<Projectpage />}
+          
             />
             <Route
               path="/Contacts"

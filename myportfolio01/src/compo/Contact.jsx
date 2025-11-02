@@ -4,19 +4,19 @@ import { ContactUs } from "./ContactUs";
 export default function Contact() {
   return (
     <>
-      <div className="flex flex-col items-center md:mt-20 mt-10  mb-10 md:mb-10 px-5 md:px-35 lg:px-29 xl:px-39  2xl:px-2 max-h-screen w-full">
+      <div className="flex flex-col items-center md:mt-20 mt-5 sm:mt-10  md:mb-10 px-5 md:px-35 lg:px-29 xl:px-39  2xl:px-2 max-h-screen w-full">
         <div className="text-[#706c6cb3] flex flex-col gap-4">
           // I'm currently open to freelance projects, collaborations, or job
           opportunities.{" "}
           <span>// Feel free to reach out if you have something in mind.</span>
         </div>
 
-        <div className="md:w-150 w-55 md:h-95 h-80 pt-10 pb-3 mt-5 gap-4 bg-[#00000067] rounded-xl text-gray-200 flex flex-col  px-20 items-center justify-center ">
+        <div className="md:w-150 w-55 md:h-95 h-80 pt-10 pb-3 mt-4 gap-4 sm:mt-30 bg-[#00000067] rounded-xl text-gray-200 flex flex-col  px-20 items-center justify-center ">
           <span className=" text-base md:-mt-15 -mt-5  md:text-xl flex items-center justify-center lg:text-2xl xl:text-3xl md:w-50 w-30">
             Contact Dev
           </span>
           <div className="flex md:flex-row flex-col items-center justify-center md:gap-15 gap-3.5">
-            <section className="flex flex-col   items-center ">
+            <section className="flex flex-col m  items-center ">
               <ContactUs />
             </section>
 

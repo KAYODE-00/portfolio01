@@ -24,7 +24,7 @@ export default function Sidebar(props) {
   };
 
   return (
-    <div className="">
+    <div className="z-20">
       <div className="fixed  mt-5 pl-5 md:hidden xl:hidden lg:hidden 2xl:hidden sm:block">
         <button onClick={toggleMenu} className="cursor-pointer">
           <i className="bx bx-menu text-3xl text-gray-200 hover:text-gray-400"></i>
@@ -131,7 +131,7 @@ export default function Sidebar(props) {
                               >
                                 <i className="devicon-javascript-plain colored mr-2 "></i>
                                 <button onClick={() => props.setPpage(true)}  className=" cursor-pointer  ">
-                                  <Link to="/Projects">Projects.js</Link>
+                                  <Link to="/Projectspage">Projects.js</Link>
                                 </button>
                               </div>
                               <div
@@ -159,7 +159,7 @@ export default function Sidebar(props) {
       <div
         className={` ${
           props.isOpen ? `md:w-[270px] ` : `md:w-[60px]`
-        } hidden md:block  fixed    min-h-screen  dark:bg-[#171616]  dark:border-black  border-2  `}
+        } hidden md:block  fixed   min-h-screen  dark:bg-[#171616]  dark:border-black  border-2  `}
       >
         <div className="flex ">
           <div

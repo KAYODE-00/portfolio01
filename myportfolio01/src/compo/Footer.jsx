@@ -11,7 +11,7 @@ function Footer() {
     setInput(value);
 
     if (value === "home") navigate("/");
-    else if (value === "projects") navigate("/Projects");
+    else if (value === "project") navigate("/Projectspage");
     else if (value === "about") navigate("/About");
     else if (value === "contact") navigate("/Contacts");
   };
