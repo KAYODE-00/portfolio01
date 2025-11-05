@@ -9,7 +9,7 @@ export const data = [
        stack3:'TAILWIND-CSS',
     },
         text: "/*My VS code inspired portfolio,fully responsive in ll devices */",
-    peojectlink:'http://vscode-portfolio.vercel.app/',
+    peojectlink:'https://portfolio01-six-inky.vercel.app/',
   },    {
     id: 2,
     img:'BrickB.jpg ',
@@ -46,8 +46,21 @@ export const data = [
     },
     text: "/* Youtube clone that fetches data from youtube api  */",
     peojectlink:'https://youtube-lite-seven-weld.vercel.app/'
-  },  {
+  },
+  {
     id: 5,
+    img:'YoutubeL.jpg ',
+    smimg:'SpotifyClone.png ',
+    title:'Spotify',
+        stacks:{
+      stack1:'REACT',
+      stack2:'JAVASCRIPT',
+       stack3:'TAILWIND',
+    },
+    text: "/* Spotify clone with dummy datas  */",
+    peojectlink:'https://spotify-clone-steel-omega.vercel.app/'
+  },  {
+    id: 6,
     smimg:'randpassword.png ',
     title:'Random Passsword Generator',
         stacks:{
@@ -58,7 +71,7 @@ export const data = [
     text: "/* Random password genertor i built using html,css,javascript */",
     peojectlink:'https://random-password-generator.pxxl.click/'
   }, {
-    id: 6,
+    id: 7,
     smimg:'colorFlip.png ',
     title:'Background color generator',
         stacks:{
